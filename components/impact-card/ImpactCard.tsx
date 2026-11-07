@@ -62,7 +62,7 @@ export function ImpactCard({ pledge, projectName, locale, m }: Props) {
         </dl>
 
         <footer className="mt-6 flex items-end justify-between gap-3 border-t border-cream/15 pt-4">
-          <span className="font-serif text-lg tracking-wide text-gold">Bored Billionaires</span>
+          <span className="shrink-0 whitespace-nowrap font-serif text-base tracking-wide text-gold">Bored Billionaires</span>
           <span className="max-w-[10rem] text-right text-[0.6rem] leading-tight text-cream/60">{m.card.notFunding}</span>
         </footer>
       </div>
