@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "currency": "USD",
+  "projects": [
+    {
+      "id": "miami-coral-restoration",
+      "name": { "en": "Miami Coral Restoration", "es": "Restauración de Coral en Miami" },
+      "category": "ocean",
+      "location": "Biscayne Bay, Florida",
+      "summary": {
+        "en": "Grow and replant nursery corals on Miami's damaged reef tract.",
+        "es": "Cultivar y replantar corales de vivero en el arrecife dañado de Miami."
+      },
+      "pricePoints": [
+        { "amountUSD": 250, "outcome": { "en": "Plants 10 coral fragments on the reef", "es": "Planta 10 fragmentos de coral en el arrecife" } },
+        { "amountUSD": 1000, "outcome": { "en": "Plants 50 coral fragments on the reef", "es": "Planta 50 fragmentos de coral en el arrecife" } },
+        { "amountUSD": 5000, "outcome": { "en": "Restores 100 square meters of reef", "es": "Restaura 100 metros cuadrados de arrecife" } }
+      ],
+      "openAmount": null
+    },
+    {
+      "id": "clean-water-wells",
+      "name": { "en": "Clean Water Wells", "es": "Pozos de Agua Limpia" },
+      "category": "water",
+      "location": "Northern Haiti",
+      "summary": {
+        "en": "Drill and maintain community wells with local technicians.",
+        "es": "Perforar y mantener pozos comunitarios con técnicos locales."
+      },
+      "pricePoints": [
+        { "amountUSD": 500, "outcome": { "en": "Provides clean water to 20 people for a year", "es": "Da agua limpia a 20 personas durante un año" } },
+        { "amountUSD": 12000, "outcome": { "en": "Funds one complete community well", "es": "Financia un pozo comunitario completo" } }
+      ],
+      "openAmount": {
+        "minUSD": 10,
+        "outcome": { "en": "Supports well drilling and maintenance", "es": "Apoya la perforación y el mantenimiento de pozos" }
+      }
+    },
+    {
+      "id": "school-meals",
+      "name": { "en": "School Meals Program", "es": "Programa de Comidas Escolares" },
+      "category": "food",
+      "location": "Little Haiti, Miami",
+      "summary": {
+        "en": "Hot, nutritious lunches for students who rely on school meals.",
+        "es": "Almuerzos calientes y nutritivos para estudiantes que dependen de la escuela."
+      },
+      "pricePoints": [
+        { "amountUSD": 100, "outcome": { "en": "Serves 40 school lunches", "es": "Sirve 40 almuerzos escolares" } },
+        { "amountUSD": 1800, "outcome": { "en": "Feeds one student for a full school year", "es": "Alimenta a un estudiante durante todo un año escolar" } }
+      ],
+      "openAmount": {
+        "minUSD": 5,
+        "outcome": { "en": "Supports hot school lunches", "es": "Apoya almuerzos escolares calientes" }
+      }
+    },
+    {
+      "id": "solar-microgrid",
+      "name": { "en": "Solar Microgrid", "es": "Microred Solar" },
+      "category": "energy",
+      "location": "Rural Puerto Rico",
+      "summary": {
+        "en": "Storm-resilient solar power for a rural clinic and its neighbors.",
+        "es": "Energía solar resistente a huracanes para una clínica rural y sus vecinos."
+      },
+      "pricePoints": [
+        { "amountUSD": 2500, "outcome": { "en": "Installs 4 solar panels at the clinic", "es": "Instala 4 paneles solares en la clínica" } },
+        { "amountUSD": 25000, "outcome": { "en": "Funds the clinic's battery backup system", "es": "Financia el sistema de baterías de respaldo de la clínica" } }
+      ],
+      "openAmount": null
+    },
+    {
+      "id": "first-gen-scholarships",
+      "name": { "en": "First-Gen Scholarships", "es": "Becas Primera Generación" },
+      "category": "education",
+      "location": "Miami-Dade, Florida",
+      "summary": {
+        "en": "Tuition and mentoring for first-generation college students.",
+        "es": "Matrícula y mentoría para estudiantes universitarios de primera generación."
+      },
+      "pricePoints": [
+        { "amountUSD": 1500, "outcome": { "en": "Covers one semester of textbooks and fees", "es": "Cubre un semestre de libros y cuotas" } },
+        { "amountUSD": 10000, "outcome": { "en": "Funds one full-year scholarship", "es": "Financia una beca de un año completo" } }
+      ],
+      "openAmount": {
+        "minUSD": 25,
+        "outcome": { "en": "Contributes to the scholarship fund", "es": "Contribuye al fondo de becas" }
+      }
+    },
+    {
+      "id": "mangrove-shield",
+      "name": { "en": "Mangrove Shield", "es": "Escudo de Manglares" },
+      "category": "climate",
+      "location": "Florida Keys",
+      "summary": {
+        "en": "Replant mangroves that protect the coast from storm surge.",
+        "es": "Replantar manglares que protegen la costa de las marejadas."
+      },
+      "pricePoints": [
+        { "amountUSD": 50, "outcome": { "en": "Plants 25 mangrove seedlings", "es": "Planta 25 plántulas de mangle" } },
+        { "amountUSD": 750, "outcome": { "en": "Plants 500 mangrove seedlings", "es": "Planta 500 plántulas de mangle" } }
+      ],
+      "openAmount": null
+    }
+  ]
+}
